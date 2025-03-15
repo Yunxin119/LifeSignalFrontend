@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  LifeSignalWatch Watch App
 //
-//  Created by Yunxin Liu on 3/15/25.
+//  Created by Yunxin Liu on 3/8/25.
 //
 
 import SwiftUI

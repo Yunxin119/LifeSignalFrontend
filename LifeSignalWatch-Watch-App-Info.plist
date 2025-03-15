@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is used during emergencies to notify your contacts or emergency services.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location is used during emergencies to notify your contacts or emergency services.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Your health data may be updated with anomaly detection results to improve future analysis and emergency response.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Your health data (e.g., heart rate, activity) is used to detect anomalies and alert you or emergency contacts if irregularities are found.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>WKBackgroundModes</key>
+	<array>
+		<string>self-care</string>
+	</array>
+</dict>
+</plist>

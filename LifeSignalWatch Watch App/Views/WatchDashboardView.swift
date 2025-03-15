@@ -22,7 +22,7 @@ struct WatchDashboardView: View {
                 Button(action: {
                     showingEmergencyAlert = true
                 }) {
-                    Label("SOS", systemImage: "sos")
+                    Label("", systemImage: "sos")
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding(.vertical, 8)
@@ -30,6 +30,7 @@ struct WatchDashboardView: View {
                         .background(Color.red)
                         .cornerRadius(8)
                 }
+                .buttonStyle(PlainButtonStyle())
                 
                 if healthMonitor.isHeartRateAbnormal || healthMonitor.isBloodOxygenAbnormal {
                     AutoAlertView(
@@ -120,7 +121,6 @@ struct WatchDashboardView: View {
 }
 
 
-// 预览
 struct WatchDashboardView_Previews: PreviewProvider {
     static var previews: some View {
         WatchDashboardView()

@@ -2,7 +2,7 @@
 //  LifeSignalWatchApp.swift
 //  LifeSignalWatch Watch App
 //
-//  Created by Yunxin Liu on 3/15/25.
+//  Created by Yunxin Liu on 3/8/25.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct LifeSignalWatch_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WatchDashboardView()
         }
     }
 }
