@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>LifeSignal will need your location for emergency contact.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>LifeSignal will need your health data for detect anomaly situation.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>LifeSignal will need your health data for detect anomaly situation.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>LifeSignal will need your location for emergency contact.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>
